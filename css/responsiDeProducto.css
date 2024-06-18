@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+    .te {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nombreTe {
+        margin-bottom: 5px;
+    }
+
+    .cantidad {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #dafee1;
+    color: #000000;
+}
+
+header {
+    background: #d6f2dc;
+    box-shadow: 0 4px 8px rgba(30, 246, 2, 0.124);
+}
+
+header .navbar {
+    padding: 0.8rem 1rem;
+}
+
+header .navbar-brand img {
+    height: 60px;
+}
+
+main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    background: #dbf8d4;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(50, 250, 0, 0.208);
+}

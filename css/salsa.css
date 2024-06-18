@@ -1,0 +1,45 @@
+/* Estilos básicos para el contenedor de la selección */
+.salsa {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #c9ffbb;
+    color: #000000;
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    position: relative;
+}
+
+/* Estilos para el contenedor del select */
+.select-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Agregar una flecha personalizada para el select */
+.select-container::after {
+    content: '▼';
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; 
+}
+
+/* Estilos para el hover */
+.salsa:hover {
+    border-color: #888;
+}
+
+/* Estilos para el foco */
+.salsa:focus {
+    border-color: #555;
+    outline: none;
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.5);
+}

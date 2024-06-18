@@ -1,0 +1,46 @@
+/* Estilos para el menú */
+.ContenedorDeMenu {
+    background-color: #affeac; 
+}
+
+.GranMenu {
+    padding: 0;
+}
+
+.superMenu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.superMenu li {
+    margin: 0 10px;
+}
+
+.Menu {
+    display: none;
+    position: absolute;
+    background-color: #abfa93; 
+    box-shadow: 0 2px 5px rgba(59, 254, 0, 0.236); 
+}
+
+.MenuDeSub {
+    padding: 10px;
+}
+
+.linkDeMenu {
+    color: #000000; 
+    text-decoration: none;
+}
+
+/* Estilos para mostrar el menú desplegable al pasar el ratón */
+.superMenu li:hover .Menu {
+    display: block;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
